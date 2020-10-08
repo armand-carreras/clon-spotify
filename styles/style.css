@@ -81,14 +81,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #1a1a1a;
-    box-shadow: ;
     z-index: 999;
     
 }
 .logo{
     width: 200px;
     height: auto;
-    ;
 }
 .logo>img{
     width: 100%;
@@ -152,3 +150,53 @@ main{
     font-size: 50px;
 }
 
+.footer{
+    width:95%;
+    height:auto;
+    margin-bottom: 2.5%;
+    margin-top:10%;
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+.footer h1{
+    font-size: 4em;
+    width: fit-content;
+    font-family: "ProximaNovaReg";
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 7px solid #FFF;
+}
+.kanye_title{
+    font-size: 3em;
+    padding: 20px 20px;
+    font-family: "ProximaNovaBold";
+
+}
+.kanye_descr{
+    font-size: 2em;
+    max-width: 40%;
+    padding: 0 20px;
+    font-family: "ProximaNovaLight";
+}
+.wLogo>img{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left:50%;
+    top:45%;
+    text-align: center;
+}
+.app{
+    width:600px;
+    height: auto;
+}
+.app img{
+    width: 100%;
+    height: auto;
+    margin-right: 60px;
+
+}
